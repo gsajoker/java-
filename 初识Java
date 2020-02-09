@@ -1,0 +1,23 @@
+1. Java体系主要分为三部分：JavaME、JavaSE、JavaEE 
+Java ME（Java Platform Micro Edition，微小版）
+	为在移动设备和嵌入式设备上运行应用程序提供一个健壮且灵活的环境。
+Java SE（Java Platform Standard Edition，标准版）
+	Java技术的核心和基础。
+Java EE（Java Platform Enterprise Edition，企业版）
+	是在J2SE的基础上构建的，用于开发和部署健壮、可移植、可伸缩且安全的服务器端Java应用程序。
+2.java体系结构图
+
+3.java程序类型
+Application（java应用程序）：是指在计算机操作系统中运行的程序。使用Java创建应用程序与使用其他任何计算机语言相似，这些应用程序可以基于GUI或命令行界面。
+Applet（java小程序）：是为在Internet上工作而特别创建的Java小程序，当网页显示在浏览器上后，Applet就被加载并执行。
+Applet和Application 的区别
+运行方式不同 ：依附网页运行；独立运行
+运行工具不同 浏览器运行；Java运行环境
+程序结构不同：无Main方法类；有main方法类 
+界面利用方式不同 ：浏览器界面/Applet Viewer；编写代码创建图形界面
+4.JVM、JRE、和JDK的定义及之间关系
+JVM：JVM是可运行java字节码（.class文件）的虚拟计算机系统，附着在具体的操作系统之上，其本身具有一套虚拟机指令，但它通常在软件而不在硬件上实现。
+JRE：是运行java程序所必需的环境的集合，JRE包括java虚拟机、java平台核心类和支持文件。安装JRE是运行java程序的必需步骤。
+JDR：是针对java开发人员的开发工具集合，是整个java的核心，包括了java运行环境（JRE）、java工具和java基础类库。
+三者关系：
+JVM、JRE和JDK从范围上讲是从小到大的关系。在开发java应用程序前，开发人员需要在计算机上安装JDK，这时会同时将JRE和JVM安装到计算机中。
